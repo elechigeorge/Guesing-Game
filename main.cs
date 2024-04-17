@@ -12,7 +12,7 @@ public class Program
         Console.WriteLine("Welcome to .Net Guesing Game.");
 
 
-        while (isCorrect == false && count < 5)
+        while (isCorrect == false && count < 6)
         {
             Console.WriteLine("Type your guesing word ");
             gueseWord = Console.ReadLine();
